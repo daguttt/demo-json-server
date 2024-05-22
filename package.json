@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "json-server db.json -p 4000",
-    "start:demo": "json-server demo-db.json -p 4000"
+    "start:demo": "json-server demo-db.json -p 4001"
   },
   "keywords": [],
   "author": "",

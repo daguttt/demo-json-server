@@ -1,5 +1,10 @@
-@port = 4000
+@port = 4001
 @host = http://localhost:{{port}}
 
 # Get posts with comments
 GET {{host}}/posts?_embed=comments
+
+
+###
+# Get comments with post embedded
+GET {{host}}/comments?_embed=post 
