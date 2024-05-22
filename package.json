@@ -1,0 +1,16 @@
+{
+  "name": "demo-json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json -p 4000",
+    "start:demo": "json-server demo-db.json -p 4000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "1.0.0-beta.0"
+  }
+}

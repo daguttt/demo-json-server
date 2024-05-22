@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Daniel",
+      "email": "daniel@daniel.com",
+      "password": "Dan12345",
+      "avatarUrl": "https://picsum.photos/id/22/4434/3729",
+      "userRoleId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Sebastián",
+      "email": "sebastian@sebastian.com",
+      "password": "Sebas12345",
+      "avatarUrl": "https://picsum.photos/id/22/4434/3729",
+      "userRoleId": "2"
+    },
+    {
+      "id": "3",
+      "name": "Javier",
+      "email": "javier@javier.com",
+      "password": "Javi12345",
+      "avatarUrl": "https://picsum.photos/id/22/4434/3729",
+      "userRoleId": "3"
+    }
+  ],
+  "userRoles": [
+    {
+      "id": "1",
+      "name": "admin"
+    },
+    {
+      "id": "2",
+      "name": "student"
+    },
+    {
+      "id": "3",
+      "name": "instructor"
+    }
+  ],
+  "userCategories": [
+    {
+      "id": "1",
+      "userId": "1",
+      "categoryId": "1"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "userId": "2",
+      "commentId": null,
+      "commentTypeName": "class",
+      "title": "Pregunta 1",
+      "content": "Estos son los detalles de mi pregunta",
+      "date": "2020-11-11T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "commentId": "1",
+      "commentTypeName": "class",
+      "title": null,
+      "content": "Esta es la respuesta a la pregunta 1",
+      "date": "2020-11-11T00:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Programación"
+    }
+  ],
+  "courses": [
+    {
+      "name": "Angular",
+      "categoryId": "1",
+      "description": "Curso de Angular",
+      "thumbnailUrl": "https://picsum.photos/id/22/4434/3729",
+      "userId": "3",
+      "id": "1"
+    }
+  ]
+}
