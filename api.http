@@ -1,13 +1,18 @@
 @port = 4000
 @host = http://localhost:{{port}}
 
-### 
+### -*******************************************************************************-
 
-# Get roles with users
-GET {{host}}/userRoles?_embed=users HTTP/1.1
+# USERS
+# Get users with role
+GET {{host}}/users?_embed=userRole HTTP/1.1
 
+###
 
-### 
+# Get user categories
+GET {{host}}/userCategories?_embed=user&_embed=category
+
+### -*******************************************************************************-
 
 # COMMENTS
 # Get questions with answers
@@ -15,8 +20,8 @@ GET {{host}}/comments?_embed=comments HTTP/1.1
 
 ###
 
+### -*******************************************************************************-
+
 # COURSES
 # Get categories with courses
 GET {{host}}/categories?_embed=courses HTTP/1.1
-
-###
